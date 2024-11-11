@@ -1,0 +1,1 @@
+{"type":"BinaryOp","op":"+","left":{"type":"Number","value":2},"right":{"type":"UnaryOp","op":"-","operand":{"type":"Number","value":4}}}

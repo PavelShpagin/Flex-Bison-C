@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="visualize.js"></script>
+</head>
+
+<body>
+    <script>
+        fetch("ast.json")
+            .then(response => response.json())
+            .then(data => renderAST(JSON.stringify(data)))
+            .catch(error => console.error("Error loading JSON:", error));
+    </script>
+</body>
+
+</html>
